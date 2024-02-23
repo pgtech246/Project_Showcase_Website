@@ -9,7 +9,7 @@ with col1:
 
 with col2:
     st.title("Paul Grant")
-    content = '''
+    about_me = '''
     Hi, I am Paul! I am a Python enthusiast. I have a degree in Biology and I work in the 
     field of education, in particular, in the area of science and technology. 
     I am currently learning Python programming after assisting in the deployment of a "Coding and
@@ -18,4 +18,10 @@ with col2:
     newfound skills in the area of programming. I hope to eventually create or be
     part of a project(s) that can help to improve the lives of others!
     '''
-    st.info(content)
+    st.info(about_me)
+
+message1 = '''
+Below you can find some of the apps I have built in Python. 
+Feel free to contact me!
+'''
+st.write(message1)
