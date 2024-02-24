@@ -3,10 +3,11 @@ import pandas
 
 st.set_page_config(layout="wide")
 
-col1, col2 = st.columns(2)
+col1, empty_col1, col2 = st.columns([0.5, 0.1, 2.5])
 
 with col1:
-    st.image("images\photo.png")
+    st.header("")
+    st.image("images/photo.png")
 
 with col2:
     st.title("Paul Grant")
@@ -27,7 +28,7 @@ Feel free to contact me!
 '''
 st.write(message1)
 
-col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
+col3, empty_col2, col4 = st.columns([1.5, 0.5, 1.5])
 
 df = pandas.read_csv("data.csv", sep=";")
 
