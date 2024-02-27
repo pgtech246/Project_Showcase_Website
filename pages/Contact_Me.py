@@ -15,4 +15,4 @@ From: {user_email}
     button = st.form_submit_button("Submit")
     if button:
         send_email(message)
-        st.info("Your email was sent successfully")
+        st.info("Your email was sent successfully")  # you could use st.success
